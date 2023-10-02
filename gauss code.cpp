@@ -1,4 +1,3 @@
-
 //gauss 
 
 #include<bits/stdc++.h>
@@ -9,7 +8,9 @@ float xv(float y,float z){
 float yv(float x, float z){
 	return ((-18-(3*x)+z)/20);
 }
-
+float zv(float x, float y){
+	return ((25-(2*x)+7)/20);
+}
 int main(){
 	float xo = 0,x1 = 0,yo =0,y1 =0,zo=0,y2,z1,o,e,ex,ey,ez;
 	cout<<"enter the error ";
@@ -28,4 +29,3 @@ return 0;
 
 
 }
-
